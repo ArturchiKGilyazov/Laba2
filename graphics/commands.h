@@ -14,7 +14,7 @@ public:
 	LesserComparison(int index1, int index2) : index1(index1), index2(index2) {}
 	void execute(std::vector<int>& container, std::vector<Color>& colors) const {
 		SDL_Delay(100);
-		colors[index1].set(0, 191, 255, 1); //blue 
+		colors[index1].set(0, 0, 255, 1); //blue 
 		colors[index2].set(255, 0, 0, 1); //red 
 
 	}
